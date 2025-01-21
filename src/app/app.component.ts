@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { initFlowbite } from 'flowbite';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -15,6 +15,13 @@ export class AppComponent {
     initFlowbite();
     if(localStorage.getItem('color-theme') === 'dark') {
       document.documentElement.classList.add('dark');
+    }
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleKeyDown(event: KeyboardEvent): void {
+    if(event.key === 't') {
+      this.changeTheme();
     }
   }
 
@@ -40,4 +47,5 @@ export class AppComponent {
       }
     }
   }
+
 }

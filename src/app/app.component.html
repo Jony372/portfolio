@@ -1,4 +1,11 @@
-<h1 (click)="changeTheme()">Hola mundo</h1>
+<nav class="flex w-full justify-end px-4 max-w-screen-xl mx-auto text-secondary1 dark:text-primary1">
+  <aside class="w-10 mx-2 cursor-pointer bg-primary1 dark:bg-secondary1 pb-2 px-1 rounded-b-full" (click)="changeTheme()">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-full hidden dark:block" viewBox="0 0 20 20">
+      <path fill="currentColor" fill-rule="evenodd" d="M10 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1Zm4 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-.464 4.95l.707.707a1 1 0 0 0 1.414-1.414l-.707-.707a1 1 0 0 0-1.414 1.414Zm2.12-10.607a1 1 0 0 1 0 1.414l-.706.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0ZM17 11a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2h1Zm-7 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM5.05 6.464A1 1 0 1 0 6.465 5.05l-.708-.707a1 1 0 0 0-1.414 1.414l.707.707Zm1.414 8.486l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414ZM4 11a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2h1Z" clip-rule="evenodd"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-full dark:hidden" viewBox="0 0 512 512"><path fill="currentColor" d="M264 480A232 232 0 0 1 32 248c0-94 54-178.28 137.61-214.67a16 16 0 0 1 21.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200c31.34 0 59.57-5.07 81.61-14.67a16 16 0 0 1 21.06 21.06C442.28 426 358 480 264 480Z"/></svg>
+  </aside>
+</nav>
 <main class="container mx-auto p-4 max-w-screen-xl">
   <app-about-me/>
   <app-projects/>
