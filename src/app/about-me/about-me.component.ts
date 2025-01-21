@@ -11,6 +11,7 @@ import Swal from 'sweetalert2';
 export class AboutMeComponent {
   linkedin = 'https://www.linkedin.com/in/jony372/';
   github = 'https://github.com/Jony372';
+  instagram = "https://www.instagram.com/jonyta.raw/"
   private text = 'jony16344@gmail.com';
   private Toast = Swal.mixin({
     toast: true,
