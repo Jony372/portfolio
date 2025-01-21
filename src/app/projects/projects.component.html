@@ -1,3 +1,31 @@
-<div class="relative flex items-center justify-between border border-opacity-30 dark:border-opacity-30 border-primary1 rounded-[50px] p-8 dark:border-secondary1 text-primary1 dark:text-secondary1">
-  <h1 class="text-4xl font-bold pb-5">Projects</h1>
+<div class="relative flex flex-col items-center justify-between border border-opacity-30 dark:border-opacity-30 border-primary1 rounded-[50px] p-8 dark:border-secondary1 text-primary1 dark:text-secondary1">
+  <div class="max-w-5xl w-full">
+    <h1 class="text-4xl font-bold pb-5">Projects</h1>
+    <div class="flex flex-col gap-3">
+      <app-card
+        [image]="'simbiostack/main.png'"
+        [title]="'Simbiostack'"
+        [description]="'School project made for Simbiosis, with the goal of improving
+        work performance in the workplace, as well as achieving better performance
+        in controlling equipment and managing clients.'"
+        [github]="'https://github.com/Jony372/simbiostack'"
+        [languages]="['angular', 'mysql', 'spring', 'tailwindcss']"
+      />
+      <app-card
+        [image]="'i-assist/assist.png'"
+        [title]="'I-Assist'"
+        [description]="'Hola mundo Hola mundo Hola mundo '"
+        [github]="'https://github.com/Jony372/i-assist'"
+        [link]="'https://i-assist-tawny.vercel.app/login'"
+        [languages]="['angular', 'express', 'mongodb', 'tailwindcss']"
+      />
+      <app-card
+        [image]="'pv-andinos/p-venta.png'"
+        [title]="'Point of Sale Andinos'"
+        [description]="'Hola mundo Hola mundo Hola mundo '"
+        [github]="'https://github.com/Jony372/pVentaAndinos'"
+        [languages]="['java', 'mysql']"
+      />
+    </div>
+  </div>
 </div>

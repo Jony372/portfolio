@@ -13,5 +13,6 @@ export class CardComponent {
   @Input() image: string = "";
   @Input() link: string = "";
   @Input() languages: string[] = [];
+  @Input() github: string = "";
 
 }
