@@ -1,0 +1,25 @@
+{
+  "aboutMe": "Soy un <span class=\"font-bold\">estudiante de Ingeniería en Sistemas Computacionales</span> en el Tecnológico Superior de Jalisco. Soy apasionado por la programación y la fotografía. Tengo experiencia en desarrollo web con tecnologías como <span class=\"font-bold\">HTML, CSS, JavaScript, Angular</span> y <span class=\"font-bold\">Node.js</span> con <span class=\"font-bold\">Express</span>, y conocimientos en <span class=\"font-bold\">Java</span> y <span class=\"font-bold\">Springboot</span>.",
+  "description":{
+    "simbiostack":{
+      "title":"SimbioStack",
+      "description":"Proyecto escolar con objetivo para Simbiosis, siendo un punto de venta y un gestor de notas de equipos recibido en el local para mejorar la eficiencia en el manejo de equipos y clientes."
+    },
+    "i-assist":{
+      "title":"I-Assist",
+      "description":"Sistema web para el manejo de asistencias escolares mediante código QR, con el objetivo de mejorar la eficiencia en el manejo de asistencias."
+    },
+    "pv-andinos":{
+      "title":"Punto de Venta Andinos",
+      "description":"Punto de venta para la heladería Andinos, creado para el manejo de dinero dentro del negocio y tener un control sobre las ventas realizadas en cada semana y cada mes."
+    },
+    "airplane":{
+      "title":"Airplane",
+      "description":"Proyecto escolar para el aprendizaje de desarrollo web realizado en PHP y utilizando una base de datos relacional con MySQL, siendo un sistema para reserva de vuelos para un aeropuerto."
+    },
+    "cinema":{
+      "title":"Cine",
+      "description":"Proyecto escolar inspirado en un cine local (Plaza San Javier) con el objetivo de poder realizar todas las transacciones en linea."
+    }
+  }
+}

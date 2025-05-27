@@ -4,8 +4,8 @@
   </div>
   <article class="flex flex-col justify-between gap-6 w-full">
     <div>
-      <h1 class="text-3xl font-bold mb-2">{{ title }}</h1>
-      <p>{{ description }}</p>
+      <h1 class="text-3xl font-bold mb-2">{{'description.'+title+'.title'|translate}}</h1>
+      <p>{{ 'description.'+title+'.description'|translate }}</p>
     </div>
     <div class="flex justify-between">
       <aside class="flex gap-2">
