@@ -1,0 +1,25 @@
+{
+  "aboutMe": "I am a <span class=\"font-bold\">student of Computer Systems Engineering</span> at the Tecnologico Superior de Jalisco. I am passionate about programming and photography. I have experience in web development with technologies such as <span class=\"font-bold\">HTML, CSS, JavaScript, Angular</span> and <span class=\"font-bold\">Node.js</span> with <span class=\"font-bold\">Express</span>, and knowledge in <span class=\"font-bold\">Java</span> and <span class=\"font-bold\">Springboot</span>.",
+  "description":{
+    "simbiostack":{
+      "title":"SimbioStack",
+      "description":"School project made for Simbiosis, being a point of sale and a equipment notes received at the premises to improve efficiency in equipment and customers."
+    },
+    "i-assist":{
+      "title":"I-Assist",
+      "description":"Web system for the management of school attendance through the QR Code, with the aim of improving efficiency in assistance management."
+    },
+    "pv-andinos":{
+      "title":"Point of Sale for Andinos",
+      "description":"Point of sale for Andinos ice cream shop, created for money management within the business and have control over sales made in each week and every month."
+    },
+    "airplane":{
+      "title":"Airplane",
+      "description":"School project for web development carried out in PHP and using a relational database with MySQL, being a flight reservation system for an airport."
+    },
+    "cinema":{
+      "title":"Cinema",
+      "description":"School project inspired by a local cinema (Plaza San Javier) with the aim of being able to carry out all online transactions."
+    }
+  }
+}
