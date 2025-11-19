@@ -5,5 +5,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## About the project
 
 This project is my portfolio to show all of my projects I've done
+This is part of my single page at <a href="https://roadmap.sh/projects/single-page-cv" target="_blank">roadmapsh</a> 
 
 <a href="https://portfolio-gilt-delta-36.vercel.app/" target="_blank">Wacth it</a>
